@@ -3,6 +3,7 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
+     "enableSAST": "true",
     "baseBranches": []
   },
   "checkRunSettings": {
