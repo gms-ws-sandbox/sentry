@@ -3,7 +3,7 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
-     "enableSAST": "true",
+    "enableSAST": "true",
     "baseBranches": []
   },
   "checkRunSettings": {
@@ -17,6 +17,7 @@
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
-    }
+    },
+    "extends": ["github>whitesource/merge-confidence:beta"]
   }
 }
